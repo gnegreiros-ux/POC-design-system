@@ -1,8 +1,9 @@
+import Button from "./components/button.tsx";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello World!</h1>
+    <div className="app-container">
+      <Button>Button</Button>
     </div>
   )
 }
